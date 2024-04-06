@@ -14,4 +14,4 @@ Our code will be stored in the [code](./code) subfolder.
 ## Relevant software packages
 - [fmriprep](https://fmriprep.org/en/stable/) Used for preprocessing fMRI data.
 - [templateflow](https://www.templateflow.org/usage/client/) Used for downloading template images (atlases).
-- [Nilearn](https://nilearn.github.io/) 
+- [Nilearn](https://nilearn.github.io/) Used for analyzing fMRI data.
