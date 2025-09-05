@@ -1171,7 +1171,7 @@ def main(processing_type='minimal', entropy_method='discrete', roi_data_dir=None
     
     # Initialize analyzer
     if roi_data_dir is None:
-        roi_data_dir = "/Users/jacekdmochowski/PROJECTS/fus/data/roi_time_series"
+        roi_data_dir = "/Users/jacekdmochowski/PROJECTS/fus/data/roi_time_series_difumo"
     
     analyzer = EntropyProductionAnalyzer(roi_data_dir)
     
@@ -1196,8 +1196,8 @@ def main(processing_type='minimal', entropy_method='discrete', roi_data_dir=None
 if __name__ == "__main__":
     # Example usage with different parameters:
     
-    # Run with default parameters (minimal preprocessing, discrete method)
-    active_results, sham_results, comparison_results = main(processing_type='conservative', entropy_method='discrete', n_states=12)
+    # Run with default parameters (DiFuMo preprocessing, discrete method)
+    active_results, sham_results, comparison_results = main(processing_type='difumo1024', entropy_method='discrete', n_states=12)
     #main()
     
     # Alternative configurations:
